@@ -11,7 +11,11 @@ public class Main {
 //            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
 //            System.out.println("i = " + i);
 //        }
-    MergeStringAlternatively p1 = new MergeStringAlternatively();
-    System.out.println(p1.mergeAlternatelySolution("abc", "efg"));
+
+//    MergeStringAlternatively p1 = new MergeStringAlternatively();
+//    System.out.println(p1.mergeAlternatelySolution("abc", "efg"));
+
+        FindTheDifference p2 = new FindTheDifference();
+        System.out.println(p2.findTheDifferenceSolution("", "c"));
     }
 }
