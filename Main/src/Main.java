@@ -30,8 +30,10 @@ public class Main {
 //
 //        sc.close();
 
-        NeedleInAHaystack nIaH = new NeedleInAHaystack();
-        System.out.println(nIaH.strStr("automatic", "mat"));
+//        NeedleInAHaystack nIaH = new NeedleInAHaystack();
+//        System.out.println(nIaH.strStr("automatic", "mat"));
 
+        ValidAnagram va = new ValidAnagram();
+        System.out.println(va.isAnagram("cinema", "iceman"));
     }
 }
