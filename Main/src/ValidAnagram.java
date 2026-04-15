@@ -6,9 +6,11 @@ public class ValidAnagram {
         if (s.length() != t.length()) return false;
 
         int[] count = new int[26];
+        int[] count2 = count.clone();
 
         for (int i=0; i<s.length(); i++) {
             count[s.charAt(i) - 'a']++;
+            System.out.println(Arrays.toString(count2));
             count[t.charAt(i) - 'a']--;
         }
 
@@ -16,7 +18,6 @@ public class ValidAnagram {
             if (cnt!=0)
                 return false;
         }
-
         return true;
     }
 }

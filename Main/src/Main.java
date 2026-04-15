@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -33,7 +34,10 @@ public class Main {
 //        NeedleInAHaystack nIaH = new NeedleInAHaystack();
 //        System.out.println(nIaH.strStr("automatic", "mat"));
 
-        ValidAnagram va = new ValidAnagram();
-        System.out.println(va.isAnagram("cinema", "iceman"));
+//        ValidAnagram va = new ValidAnagram();
+//        System.out.println(va.isAnagram("cinema", "iceman"));
+
+        ConcatenationOfArrays coa = new ConcatenationOfArrays();
+        System.out.println(Arrays.toString(coa.getConcatenation(new int[]{1, 2, 3})));
     }
 }
